@@ -1,12 +1,13 @@
 {
-  "name": "fullcalendar-reactWrapper",
-  "version": "1.0.1",
+  "name": "fullcalendar-reactwrapper",
+  "version": "1.0.4",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "build": "WEBPACK_ENV=build webpack",
-    "dev": "WEBPACK_ENV=dev webpack --progress --colors --watch",
-    "test": "mocha --compilers js:babel-core/register --colors -w ./test/*.spec.js"
+    "dev": "NODE_ENV=development npm start",
+    "start": "webpack --config webpack.config.dev.js && node devServer.js",
+    "build": "NODE_ENV=production webpack --config webpack.config.js",
+    "prepublish": "npm run build"
   },
   "keywords": [],
   "author": "",

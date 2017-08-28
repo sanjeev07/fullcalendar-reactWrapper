@@ -3,7 +3,7 @@ import $ from "jquery";
 import fullCalendar from "fullcalendar";
 import moment from 'moment';
 import FullcalendarObjectMapper from './fullcalendarObjectMapper';
-import '../../node_modules/fullcalendar/dist/fullcalendar.min.css'
+// import '../node_modules/fullcalendar/dist/fullcalendar.min.css'
 export default class FullCalendar extends React.Component{
 	constructor(){
 		super();
