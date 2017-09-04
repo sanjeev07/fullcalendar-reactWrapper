@@ -1,7 +1,7 @@
 {
   "name": "fullcalendar-reactwrapper",
-  "version": "1.0.4",
-  "description": "",
+  "version": "1.0.5",
+  "description": "A React Calendar with events",
   "main": "lib/index.js",
   "scripts": {
     "dev": "NODE_ENV=development npm start",
@@ -9,9 +9,17 @@
     "build": "NODE_ENV=production webpack --config webpack.config.js",
     "prepublish": "npm run build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+      "react-component",
+      "react",
+      "calendar",
+      "events",
+      "fullcalendar",
+      "react-fullcalendar"
+  ],
+  "author": "Sanjeev Pradhan <csesanjeev07@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/sanjeev07/fullcalendar-reactWrapper",
   "dependencies": {
     "fullcalendar": "^3.4.0",
     "jquery": "^3.2.1",
