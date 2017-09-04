@@ -11,6 +11,7 @@ export default class FullCalendar extends React.Component{
 		this.fullcalendarObjectMapper = new FullcalendarObjectMapper();
 		this.root = null;
 		this.instance = null;
+		this.date = new Date();
 	}
 
 	componentDidMount(){
@@ -25,7 +26,7 @@ export default class FullCalendar extends React.Component{
   	}
 
 	render(){
-		this.root = this.props.id || 'ID' + new Date.getTime(); 
+		this.root = this.props.id || 'ID' + this.date.getTime(); 
 		return(
 			<div id={this.root}></div>
 		)
