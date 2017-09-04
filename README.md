@@ -104,7 +104,7 @@ The `id` property declares the `id` of the root element for the FullCalendar com
 ## Examples 
 
 ## License 
-ISC
+MIT
 
 ## Dependencies
 
